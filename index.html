@@ -28,7 +28,7 @@
 <body>
 <main>
   <h1>Yumi Café — Privacy Policy</h1>
-  <p class="meta">Developer: Paracord Studio · Effective date: 28 October 2026</p>
+  <p class="meta">Developer: Paracord Studio · Effective date: 28 October 2026 (updated the same day: game statistics, section 6)</p>
 
   <div class="card">
     <p><strong>In short:</strong> Yumi Café is a cooking game for children and families (rated PEGI 3). We do not ask for names,
@@ -37,7 +37,8 @@
     The weekly league uses a random player ID made by the game (no name, no e-mail) stored with our game-server provider Unity
     Gaming Services; other players only see a made-up name like "Captain Muffin" and the avatar picture the child chose.
     The game shows optional rewarded video ads, served in child-directed mode by our ad partner Appodeal, which automatically
-    receives limited technical information to deliver those ads.</p>
+    receives limited technical information to deliver those ads. To see which levels are too hard and what children enjoy, the
+    game sends anonymous game statistics (no name, no advertising ID) to Google Analytics for Firebase.</p>
   </div>
 
   <h2>1. Who we are</h2>
@@ -88,11 +89,36 @@
     only to send a short notice when another player takes the player's 1st place or the places that move up (at most one a day,
     only in the daytime of the player's time zone). Turning the switch off deletes the token on the device and on the server.
     The notice contains no name and no message from other players. Firebase processes the token under the
-    <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase privacy information</a>; the Game does not
-    use Firebase Analytics.</li>
+    <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase privacy information</a>. Game statistics
+    are described in section 6.</li>
   </ul>
 
-  <h2>6. Advertising</h2>
+  <h2>6. Game statistics (Google Analytics for Firebase)</h2>
+  <ul>
+    <li>To learn which levels are too hard, where children stop playing and which parts of the Game they use, the Game sends
+    anonymous game statistics to <strong>Google Analytics for Firebase</strong> (Google), which processes them for us as a
+    service provider. We only look at totals and averages; we never try to identify a child.</li>
+    <li><strong>What the Game sends:</strong> a level started, won or left, with its number, moves, mistakes, time and stars; steps
+    of the first lesson; whether a reward-video button was shown, tapped and watched to the end (and in which part of the Game);
+    coins earned and spent and the item bought with them; use of the hint and undo buttons; which screens were opened (shop,
+    league, daily quests, lucky spin, "My levels"); changed settings (sound, music, vibration, notifications, mistake
+    explanations); and whether the Game was opened from one of its notifications. These are numbers and fixed names only —
+    never anything a child typed or said.</li>
+    <li><strong>What the Firebase SDK adds automatically:</strong> a random app-instance ID created for this installation of the
+    Game, the operating system, language, app version, session start and play time, first open and app updates, and the
+    country or region derived from the IP address. City-level location and detailed device data (such as the device model) are
+    switched off, and Google Analytics does not store the IP address.</li>
+    <li><strong>What it does not use:</strong> the device's advertising ID (switched off in the Game), names, e-mail addresses or
+    any account. Ad personalization, Google signals and every option to share the data with Google for its own purposes
+    (product improvement, benchmarking, technical support, account specialists) are switched off, so the statistics are not
+    used for advertising or combined with other Google data. They are not sold.</li>
+    <li>The data is sent over encrypted connections (HTTPS) and processed under the
+    <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase privacy information</a> and the
+    <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. How long it is kept is in
+    section 10.</li>
+  </ul>
+
+  <h2>7. Advertising</h2>
   <ul>
     <li>The Game shows <strong>rewarded video ads only</strong>, and only when a player taps a clearly marked button (for example,
     "x3" coins after a level, "x1.5" after a party level, or "+100" coins in the shop). There are no banners and no ads that interrupt play. Watching an ad is
@@ -101,10 +127,10 @@
     is <strong>child-directed</strong>, so only contextual (non-personalized) ads suitable for children are requested. No
     behavioural advertising, profiling or cross-app tracking is permitted for this Game.</li>
     <li>To deliver ads, measure that they were shown, limit how often they are shown and prevent fraud, the ad SDK
-    automatically collects and shares the technical information listed in section 7 with Appodeal and its ad partners.</li>
+    automatically collects and shares the technical information listed in section 8 with Appodeal and its ad partners.</li>
   </ul>
 
-  <h2>7. Information collected automatically by the ad SDK</h2>
+  <h2>8. Information collected automatically by the ad SDK</h2>
   <div class="table-wrap">
   <table>
     <thead><tr><th>Data</th><th>Examples</th><th>Why</th></tr></thead>
@@ -122,31 +148,35 @@
   <a href="https://www.appodeal.com/privacy-policy" rel="noopener">Appodeal Privacy Policy</a> ·
   <a href="https://policies.google.com/privacy" rel="noopener">Google (AdMob) Privacy Policy</a>.</p>
 
-  <h2>8. What we do not do</h2>
+  <h2>9. What we do not do</h2>
   <ul>
     <li>We do not sell, rent or trade any information.</li>
-    <li>We do not use personalized or behavioural advertising.</li>
+    <li>We do not use personalized or behavioural advertising, and game statistics are never used for advertising.</li>
     <li>We do not collect names, e-mail addresses, phone numbers, photos, voice recordings, precise location or contacts.</li>
     <li>We do not let players write to each other or see anything another player typed.</li>
     <li>We do not offer in-app purchases or chat with other players.</li>
   </ul>
 
-  <h2>9. Data retention and deletion</h2>
+  <h2>10. Data retention and deletion</h2>
   <p>Game progress stays on the device until the Game is uninstalled (and in the Play Games saved game while that profile keeps
-  it). League data is kept with Unity Gaming Services while the league runs: a player's tier and avatar number stay with the player, and the weekly groups (places and Chef Points) are deleted about four weeks after their week ends. The push token is kept only while notifications are switched on. Parents may ask us at any time to delete the league data of their child's player
+  it). League data is kept with Unity Gaming Services while the league runs: a player's tier and avatar number stay with the player, and the weekly groups (places and Chef Points) are deleted about four weeks after their week ends. The push token is kept only while notifications are switched on. Game statistics are kept by Google Analytics as single
+  events for 2 months; the app-instance ID and its data are kept for up to 14 months after the Game was last played, after which
+  only totals remain. They are not linked to a name or account, so we cannot pick out one child's statistics; uninstalling the
+  Game or clearing its data starts a new app-instance ID, and the old one's data expires as above. Parents may ask us at any time to delete the league data of their child's player
   — write to us and we will delete it within 30 days. Technical data received by Appodeal and its partners is kept only as long
   as they need it for the purposes above, as described in their policies; we will forward deletion requests to them.</p>
 
-  <h2>10. Your rights</h2>
+  <h2>11. Your rights</h2>
   <p>Depending on where you live (for example, under the GDPR, UK GDPR or COPPA), you may have the right to access, correct or
   delete personal data, to object to or restrict its processing, and to complain to your local data protection authority. Write
-  to us and we will help; league data is handled with Unity Gaming Services and ad data with our ad partners.</p>
+  to us and we will help; league data is handled with Unity Gaming Services, game statistics with Google Analytics for
+  Firebase and ad data with our ad partners.</p>
 
-  <h2>11. Changes to this policy</h2>
+  <h2>12. Changes to this policy</h2>
   <p>We may update this policy when the Game changes. The new version will be published on this page with a new effective date.
   Significant changes will also be mentioned in the store listing's "What's new" notes.</p>
 
-  <h2>12. Contact</h2>
+  <h2>13. Contact</h2>
   <p>Paracord Studio · <a href="mailto:paracordstudio7@gmail.com">paracordstudio7@gmail.com</a></p>
 </main>
 </body>
